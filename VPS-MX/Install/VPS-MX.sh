@@ -272,7 +272,7 @@ msg -ama "               Finalizando Instalacion" && msg bar2
 
 wget -O /bin/rebootnb https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/ArchivosUtilitarios/rebootnb &> /dev/null
 chmod +x /bin/rebootnb 
-wget -O /bin/resetsshdrop https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX/main/VPS-MX_Oficial/ArchivosUtilitarios/resetsshdrop &> /dev/null
+wget -O /bin/resetsshdrop https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/ArchivosUtilitarios/resetsshdrop &> /dev/null
 chmod +x /bin/resetsshdrop
 wget -O /etc/versin_script_new https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/Version &>/dev/null
 msg -bar2
