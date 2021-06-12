@@ -51,7 +51,7 @@ if [ ! -d "$INSTALL_DIR" ]; then
     wget https://www.dropbox.com/s/p5bclg6gv74oyoy/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf &> /dev/null
 	chmod +x /usr/local/vpsmxup/vpsmxup.default.conf
 	rm -rf /root/VPS-MX
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX/main/VPS-MX -O /root/VPS-MX &> /dev/null
+    wget https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/_Update/Original/VPS-MX -O /root/VPS-MX &> /dev/null
 	chmod +x /root/VPS-MX
 	echo -e  "\033[1;97m              Copiando Instalador Interno "
 	
