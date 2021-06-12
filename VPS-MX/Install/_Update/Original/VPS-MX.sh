@@ -212,9 +212,9 @@ MIP2=$(wget -qO- ifconfig.me)
 [[ "$MIP" != "$MIP2" ]] && IP="$MIP2" || IP="$MIP"
 }  
 function_verify () {
-wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX/main/VPS-MX_Oficial/ArchivosUtilitarios/trans &> /dev/null
+wget -O /usr/bin/trans https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/ArchivosUtilitarios/trans &> /dev/null
 wget -O /etc/versin_script https://raw.githubusercontent.com/VPS-MX/VPS-MX_Oficial/master/Version &> /dev/null
-wget -O /usr/bin/SPR https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX/main/VPS-MX_Oficial/ArchivosUtilitarios/SPR/SPR &> /dev/null
+wget -O /usr/bin/SPR https://github.com/ianzion/PROYECTOS_DESCONTINUADOS/blob/master/VPS-MX/Install/ArchivosUtilitarios/SPR/SPR &> /dev/null
 chmod +x /usr/bin/SPR
 ## lognull
 mkdir /usr/share/mediaptre &>/dev/null
